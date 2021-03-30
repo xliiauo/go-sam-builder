@@ -1,6 +1,6 @@
 FROM amazonlinux:2
 
-RUN yum install -y go unzip &&\
+RUN yum install -y go unzip make &&\
     yum clean all &&\
     rm -rf /var/cache/yum
 
